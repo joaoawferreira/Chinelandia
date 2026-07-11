@@ -1,0 +1,184 @@
+/*letra barlow*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+     break-inside: avoid;
+  page-break-inside: avoid;
+    box-sizing: border-box;
+}
+/**/
+body {
+    font-family: "barlow", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF8DC;
+
+}
+/*cabeçalho*/
+header {
+    background-color: #DEB887;
+    font-family: "barlow",sans-serif;
+    color:#FFF8DC ;
+    gap: 30px  ;
+    border-bottom: 8px solid #8B4513;
+    border-radius: 12px;
+    display: flex;
+    width: 100%;
+}
+/*imagem do header*/
+header img{
+    margin-left: 350px;
+   width: 200px;
+}
+/*h1 do cabeçalho*/
+#title{
+    font-size: 30px;
+  margin-top: 30px;
+    text-align: center;
+    margin-left: 30px
+}
+
+/*lista de navegação*/
+nav ul {
+   font-size: 30px;
+    justify-content: flex-end;
+    color: #FFF8DC;
+    list-style: none;
+    margin-left: 250px;
+    margin-top: 70px;
+    padding: 12px;
+   
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+/*links da parte de navegação*/
+nav a {
+    background-color: #8B4513;
+    color: #FFF8DC;
+    text-decoration: none;
+    font-size: 36px;
+    border: 5px solid #FFF8DC;
+    padding: 24px;
+    border-radius: 12px;
+}
+/*mudança de cor dos botoes de navegação*/
+nav a:hover {
+    background-color: #FFF8DC;
+    color: #8B4513;
+}
+/*banner*/
+.banner {
+    text-align: center;
+    font-family: "barlow", sans-serif;
+    font-size: 24px;
+    box-sizing: content-box;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+    background-color: #FAFAD2;
+    padding: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 10px;
+    border: 2px solid #778899;
+    border-radius: 12px;
+}
+/*imagens em geral*/
+img {
+    border: 8px solid#DEB887;
+    border-radius: 12px;
+    width: 430px;
+}
+/*produtos do index*/
+.destaques {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+/*cards em geral*/
+.card {
+    text-align: center;
+    font-family: "barlow", sans-serif;
+    font-size: 20px;
+    padding: 40px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.28);
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+/*titulo dos cards*/
+h2 {
+    text-align: center;
+    font-family: "barlow", sans-serif;
+    font-size: 36px;
+    margin: 30px;
+    padding-top: 15px;
+}
+/*parte sobre nos*/
+.sobre {
+    text-align: center;
+    font-family: "barlow", sans-serif;
+    font-size: 24px;
+    box-sizing: content-box;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+    background-color: #FAFAD2;
+    padding: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 10px;
+    border: 2px solid #778899;
+    border-radius: 12px;
+}
+/*botoes dos cards*/
+button {
+    padding: 20px;
+    font-size: 30px;
+    font-family: "barlow", sans-serif;
+    font-weight: bolder;
+    border-radius: 15px;
+    background-color: #DEB887;
+    color: #FFF8DC;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+
+}
+/*mudança de cor dos botoes*/
+button:hover {
+    background-color: #D2B48C;
+}
+/*footer*/
+footer {
+    font-family: "barlow", sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    opacity: 0.45;
+
+}
+
+/*produtos da pagina produtos*/
+.produtos {
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    margin-top: 80px;
+    display: flex;
+    gap: 30px;
+  
+}
+/*imagem da pagina produtos*/
+.produtos img {
+    width: 204px;
+}
+/*favicon* do footer*/
+footer img {
+    width: 80px;
+    border: none;
+}
